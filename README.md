@@ -19,7 +19,8 @@ Source code of the paper "Towards Structure-aware Model for Multi-modal Knowledg
 All experiments are run with 8 V100(32GB) GPUs.
 
 ## How to run simply
-为了更好的复现论文,我们提供了简单的一站式操作来运行TSAM模型.
+For better reproducibility of the paper, we provide a simple one-stop operation to run the TSAM model.
+
 
 
 
