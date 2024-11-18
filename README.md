@@ -1,2 +1,62 @@
-# TSAM
-Source code of the paper "Towards Structure-aware Modality for Multi-modal Knowledge Graph Completion"
+## Towards Structure-aware Model for Multi-modal Knowledge Graph Completion
+
+
+Source code of the paper "Towards Structure-aware Model for Multi-modal Knowledge Graph Completion".This paper was submitted to ICDE'2025
+
+
+
+
+
+
+## Requirements
+* python>=3.9
+* torch>=2.0 
+* transformers
+* scipy
+* tqdm
+...
+
+All experiments are run with 8 V100(32GB) GPUs.
+
+## How to run simply
+为了更好的复现论文,我们提供了简单的一站式操作来运行TSAM模型.
+
+
+
+
+For DB15K and MKG-W  datasets, we use files from [DB15K](https://github.com/mniepert/mmkb) and  [MKG-W](https://github.com/quqxui/MMRNS).
+
+### WN18RR dataset
+
+Step 1, Please download the [tokens folder](https://drive.google.com/file/d/1lFVEIe5_G_dw_K2wzvnnWKYYp2hEPWG2/view?usp=sharing
+) from Google drive and put it in the TSAM folder. (Due to GitHub storage restrictions, we have stored all processed tokens information in Google drive)
+
+
+Step 2, Install the model and pre-install related environment
+```
+pip install -r requirements.txt
+```
+
+Step 3, Training and evaluate the model
+```
+bash train_MKG_W.bash
+```
+
+
+
+Feel free to change the output directory to any path you think appropriate.
+
+
+
+
+# further 
+1.If you need it, we also provide the ckpt from our models in the [ckpt](predictions/) directory.
+
+2.You can download various transformer-based models from [HuggingFace](https://huggingface.co/) on your own and conduct your own experiments based on the "save_token_embedding.py" py scripts.
+
+
+
+
+## 🤝 Connection
+If you have any questions, please contact my email <xltx_youxiang@qq.com> !
+
