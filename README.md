@@ -27,7 +27,7 @@ For better reproducibility of the paper, we provide a simple one-stop operation 
 
 For DB15K and MKG-W  datasets, we use files from [DB15K](https://github.com/mniepert/mmkb) and  [MKG-W](https://github.com/quqxui/MMRNS).
 
-### WN18RR dataset
+### MKG-W dataset
 
 Step 1, Please download the [tokens folder](https://drive.google.com/file/d/1lFVEIe5_G_dw_K2wzvnnWKYYp2hEPWG2/view?usp=sharing
 ) from Google drive and put it in the TSAM folder. (Due to GitHub storage restrictions, we have stored all processed tokens information in Google drive)
