@@ -58,6 +58,5 @@ Feel free to change the output directory to any path you think appropriate.
 
 
 
-## 🤝 Connection
-If you have any questions, please contact my email <xltx_youxiang@qq.com> !
+
 
