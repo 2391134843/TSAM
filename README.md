@@ -1,7 +1,7 @@
 ## Towards Structure-aware Model for Multi-modal Knowledge Graph Completion
 
 
-Source code of the paper "Towards Structure-aware Model for Multi-modal Knowledge Graph Completion".This paper was submitted to SIGIR'2024
+Source code of the paper "Towards Structure-aware Model for Multi-modal Knowledge Graph Completion".This paper was submitted to SIGIR'2025
 
 
 
