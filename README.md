@@ -55,8 +55,6 @@ Feel free to change the output directory to any path you think appropriate.
 
 2.You can download various transformer-based models from [HuggingFace](https://huggingface.co/) on your own and conduct your own experiments based on the "save_token_embedding.py" py scripts.
 
-## 🤝 Connection
-If you have any questions, please contact my email <xltx_youxiang@qq.com> !
 
 
 
